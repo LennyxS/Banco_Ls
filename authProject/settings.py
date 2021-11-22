@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from os import access, times
 from pathlib import Path
 from datetime import timedelta
-import django_heroku
+import django_heroku 
 
 django_heroku.settings(locals())
 
